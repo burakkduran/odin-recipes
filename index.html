@@ -6,16 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/turkish-ravioli.html">Turkish Ravioli</a></li>
-        <li><a href="recipes/stuffed-leaves.html">Stuffed Leaves</a></li>
-        <li><a href="recipes/baklava.html">Baklava</a></li>
-        <li><a href="recipes/oven-roasted-potatoes.html">Oven Roasted Potatoes</a></li>
-    </ul>
+    <div class="container">
+        <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project">
+        <h1>Odin Recipes</h1>
+        
+        <div class="card-container">
+            <div class="card">
+                <img src="src/images/manti.jpeg" alt="Turkish Ravioli">
+                <button onclick="location.href='recipes/turkish-ravioli.html'" type="button">Turkish Ravioli</button>
+            </div>
+            <div class="card">
+                <img src="src/images/stuffed-leaves.jpeg" alt="Stuffed Leaves">
+                <button onclick="location.href='recipes/stuffed-leaves.html'" type="button">Stuffed Leaves</button>
+            </div>
+            <div class="card">
+                <img src="src/images/baklava.jpeg" alt="Baklava">
+                <button onclick="location.href='recipes/baklava.html'" type="button">Baklava</button>
+            </div>
+            <div class="card">
+                <img src="src/images/oven-roasted-potatoes.jpeg" alt="Oven Roasted Potatoes">
+                <button onclick="location.href='recipes/oven-roasted-potatoes.html'" type="button">Oven Roasted Potatoes</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
