@@ -2,29 +2,28 @@
     margin: 0;
 }
 
-.container {
+body {
     height: 100vh;
     /*
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     */
-    background-color: #FF9494;
-    background-repeat: no-repeat;
+    background-color: #111827;
     font-family: 'DejaVu Sans', serif;
 }
 
 h1 {
-
-    text-align: center;
-    color: #FAF7F0;
+    color: #617BFF;
 }
 
 /*Odin Logo*/
-.container>img {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.header {
+    padding: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header>img {
     width: 5%;
 }
 
@@ -32,41 +31,49 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 30px;
+    padding: 20px 300px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 49%;
-    margin-bottom: 50px;
+    align-items: center;
+    gap: 32px;
+    padding: 16px;
+    background-color: #252d35;
+    border-radius: 16px;
+    border: solid 1px #e2b067;
 }
 
 
-.card>img,
-.card>button {
+.card>img{
     width: 400px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #eee;
 
 }
 
 
-button {
-    margin-top: 10px;
-    background-color: #FFD1D1;
-    font-size: 20px;
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2b067;
+    font-size: 16px;
+    padding: 8px;
     font-weight: bold;
-    color: black;
+    /*color: #0e140e;*/
+    height: 40px;
+    width: 230px;
+    border-radius: 16px;
 }
 
 
-/*
-ul {
-    list-style-type: none;
-}
-*/
 
 a {
     text-decoration: none;
+    color: #fff;
 }
